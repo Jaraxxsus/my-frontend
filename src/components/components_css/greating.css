@@ -1,0 +1,18 @@
+.greating{
+    margin : auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin-top: 70px;
+    animation-name: GrittingAnim;
+    animation-duration: 1s;
+    position: absolute;
+    text-align: center;
+}
+
+@keyframes GrittingAnim{
+    0% {
+        margin-top: -100px;
+    }
+    100%{
+        margin-top: 70px;
+    }
+}

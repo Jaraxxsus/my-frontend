@@ -1,0 +1,31 @@
+.mainBlock{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 100px;
+    animation-name: blockAnim;
+    animation-duration: 2s;
+
+}
+.input{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.btn-group{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+}
+@keyframes blockAnim{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
