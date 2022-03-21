@@ -17,20 +17,14 @@ const  Registration = ()=>{
             onClick={showLogInPage}>
 
             </i>
-
-
                 <input type="email" className="form-control input" placeholder="Адрес электронной почты"></input>
                 <input type="password" className="form-control input" placeholder=" Придумайте пароль"></input>
                 <input type="password" className="form-control input" placeholder="Повторите пароль"></input>
                 
                 <div className="btn-group">
                      <button type="submit" className="btn btn-primary">Зарегестрироваться</button>
-                  
-
                 </div>
             </form>
-
-           
         </div>
     )
 }
